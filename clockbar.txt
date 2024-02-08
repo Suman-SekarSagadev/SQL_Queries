@@ -1,0 +1,14 @@
+@echo off
+Telegr
+Title digital clock @mode con cols=30 lines=7
+color 03
+pand :main cls
+insti
+echo.
+echo Time: %time%
+¿ echo.
+Dorsen echo Date: %date%
+echo.
+otepi
+ping -n 2 0.0.0.0>nul 
+goto main
